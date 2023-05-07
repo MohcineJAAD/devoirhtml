@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.langage span {
+    color: #3a6cf4;
+}
+
+.langage a {
+    color: #3a6cf4;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+span {
+    color: #00203fff;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.main h1 span {
+    color: #3a6cf4;
+}
+
+.main p {
+    color: #fff;
+    font-size: 0.938rem;
+    font-weight: 300;
+    margin: 0.5rem 0 1.2rem;
+}
+
+.main-botn {
+    padding: 10px 22px;
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+
+.main-botn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading span {
+    font-weight: 500;
+    color: #3a6cf4;
+}
+
+.heading p {
+    font-size: 0.938rem;
+    font-weight: 300;
+}
+
+
+.discovers_cars .heading h2 {
+    color: #fff;
+}
+
+.discovers_cars .heading p {
+    color: #fff;
+}
+
+.discovers_cars {
+    background-color: #0e1319;
+	min-height: 100vh
+	
+}
+
+.discover_main {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 200px;
+    position: relative;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    flex: 1 1 17rem;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.box:hover img {
+    opacity: 0.9;
+}
+
+.box h2 {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.box:hover h2 {
+    background-color: #0a49f6;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.discovers_cars {
+    background-color: rgb(14, 19, 25);
+}
+
+.discovers_cars .content {
+    margin-top: 30px;
+}
+
+.bmw1 {
+    background-color: #ffffff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.bmw1:hover {
+    transform: scale(1.1);
+}
+
+.imag img {
+    width: 100%;
+}
+
+.bmw1:hover .imag {
+    opacity: 0.9;
+}
+
+.infoBMW1 {
+    padding: 1em;
+}
+
+.namecar {
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.prixandlink {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more_details {
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.more_details:hover {
+    text-decoration: none;
+    border: 1px solid #0a49f6;
+    border-radius: 5px;
+    color: #0a49f6;
+}
+
+.Signe {
+    background-color: #0e1319;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background-size: cover;
+}
+
+.Signe-containt {
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+.Signe-containt h1 {
+    font-size: 2rem;
+    color: #0a49f6;
+    margin-bottom: 1.2rem;
+}
+
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+
+form select {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+
+button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: #3a6cf4;
+    transition: 0.7s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #0a49f6;
+}
+
+.gender {
+    margin-top: 0.2rem;
+}
+
+.gender input {
+    height: 1em;
+    width: 1em;
+    cursor: pointer;
+}
+
+.gender label {
+    font-size: 0.7rem;
+}
+
+.to-sign-in {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+}
+
+.to-sign-in a {
+    color: #0a49f6;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color: #3a6cf4;
+}
+
+.title-p {
+    font-size: 0.938rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 21.25em;
+    display: flex;
+}
+
+.img1_1 {
+    background: url(../catalog/audi1_1.jpg) no-repeat;
+}
+
+.img1_2 {
+    background: url(../catalog/audi1_2.jpg) no-repeat;
+}
+
+.img1_3 {
+    background: url(../catalog/audi1_3.jpg) no-repeat;
+}
+
+.img1_4 {
+    background: url(../catalog/audi1_4.jpg) no-repeat;
+}
+
+.img2_1 {
+    background: url(../catalog/audi2_1.jpg) no-repeat;
+}
+
+.img2_2 {
+    background: url(../catalog/audi2_2.jpg) no-repeat;
+}
+
+.img2_3 {
+    background: url(../catalog/audi2_3.jpg) no-repeat;
+}
+
+.img2_4 {
+    background: url(../catalog/audi2_4.jpg) no-repeat;
+}
+
+.img3_1 {
+    background: url(../catalog/audi3_1.jpg) no-repeat;
+}
+
+.img3_2 {
+    background: url(../catalog/audi3_2.jpg) no-repeat;
+}
+
+.img3_3 {
+    background: url(../catalog/audi3_3.jpg) no-repeat;
+}
+
+.img3_4 {
+    background: url(../catalog/audi3_4.jpg) no-repeat;
+}
+
+.img4_1 {
+    background: url(../catalog/audi4_1.jpg) no-repeat;
+}
+
+.img4_2 {
+    background: url(../catalog/audi4_2.jpg) no-repeat;
+}
+
+.img4_3 {
+    background: url(../catalog/audi4_3.jpg) no-repeat;
+}
+
+.img4_4 {
+    background: url(../catalog/audi4_4.jpg) no-repeat;
+}
+
+.img5_1 {
+    background: url(../catalog/audi5_1.jpg) no-repeat;
+}
+
+.img5_2 {
+    background: url(../catalog/audi5_2.jpg) no-repeat;
+}
+
+.img5_3 {
+    background: url(../catalog/audi5_3.jpg) no-repeat;
+}
+
+.img5_4 {
+    background: url(../catalog/audi5_4.jpg) no-repeat;
+}
+
+.img6_1 {
+    background: url(../catalog/audi6_1.jpg) no-repeat;
+}
+
+.img6_2 {
+    background: url(../catalog/audi6_2.jpg) no-repeat;
+}
+
+.img6_3 {
+    background: url(../catalog/audi6_3.jpg) no-repeat;
+}
+
+.img6_4 {
+    background: url(../catalog/audi6_4.jpg) no-repeat;
+}
+
+.imgbmw1 {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+
+.imgbmw1 div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    margin-top: 3rem;
+}
+
+.imgbmw1 div:hover {
+    flex: 5;
+}
+
+/*table{
+    margin-top: 3rem;
+    position: relative;
+    width: 800px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    border: 1px solid #3a6cf4;
+}*/
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 3rem;
+    position: relative;
+    transform: translate(-50%);
+    border: 1px solid #3a6cf4;
+    left: 50%;
+    top: 50%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ccc;
+}
+
+th {
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+tr {
+    background-color: #e4e4e4;
+}
+
+.choix {
+    display: flex;
+    justify-content: center;
+}
+
+.choix div {
+    padding: 1rem 3rem;
+
+}
+
+textarea {
+  font-size: 16px;
+  margin-top: 12px;	
+  border: none;
+}
