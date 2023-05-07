@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="images/Sans titre.png" sizes="32x32">
+    <title>MohcineCars</title>
+</head>
+
+<body>
+    <header>
+        <a href="index-fr.html" class="logo">Car<span>Mohcine</span></a>
+        <nav class="navigation">
+            <a href="index-fr.html">Accueil</a>
+            <a href="login-fr.html">Se connecter</a>
+        </nav>
+    </header>
+
+    <body>
+        <section class="Signe" id="sign">
+            <div class="Signe-containt" id>
+                <h1>Paiement</h1>
+                <form action="#">
+                    <input type="text" placeholder="Nom du titulaire de la carte" required>
+                    <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+                    <input type="text" placeholder="CVV" required>
+                    <input type="email" placeholder="Entrez votre email" required>
+					<input type="text" placeholder="Entrez votre numéro de téléphone" required>
+					<input type="text" placeholder="Durée de location (<= 60 jours)" min="1" max="60" pattern="^[1-9]|[1-5][0-9]$|^60$" required>
+					<input type="text" placeholder="Adresse de livraison" required>
+					<input type="date" placeholder="Sélectionnez une date" required>
+
+                    <select name="pays" id="pays" required>
+                        <option selected disabled value="">Choisissez votre pays</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="france">France</option>
+                        <option value="italie">Italie</option>
+                        <option value="allemagne">Allemagne</option>
+                        <option value="royaume-uni">Royaume-Uni</option>
+                        <option value="maroc">Maroc</option>
+                    </select>
+                    <select name="pays" id="pays" required>
+                        <option selected disabled value="">Choisissez le type de carte</option>
+                        <option value="visa">Visa</option>
+                        <option value="mastercard">Mastercard</option>
+                        <option value="maestro">Maestro</option>
+                        <option value="unionpay">UnionPay</option>
+                        <option value="amex">Amex</option>
+                        <option value="visa-electron">Visa Electron</option>
+                    </select>
+                    <button>Louer</button>
+                    <div class="to-sign-in">
+                        Si vous êtes insatisfait du service ou si vous souhaitez annuler votre commande avant la livraison, veuillez déposer une plainte. Vous avez jusqu'à 30 jours après la livraison pour demander un remboursement. <a href="report-fr.html"> Aller à la page de réclamation</a>
+                    </div>
+                </form>
+            </div>
+        </section>    
+    </body>
+
+</html> 
